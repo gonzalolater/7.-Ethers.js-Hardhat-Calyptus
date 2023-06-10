@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\54265\\Documents\\GitHub\\7.-Ethers.js-Hardhat\\contracts\\Lock.sol": {
-      "lastModificationDate": 1686437750192,
-      "contentHash": "ae66265769cc28ebdaa34881df95bc5e",
+      "lastModificationDate": 1686440280099,
+      "contentHash": "57d58d406d0752b7d0ffde073aea607d",
       "sourceName": "contracts/Lock.sol",
       "solcConfig": {
         "version": "0.8.18",
@@ -34,6 +34,41 @@
       ],
       "artifacts": [
         "Lock"
+      ]
+    },
+    "C:\\Users\\54265\\Documents\\GitHub\\7.-Ethers.js-Hardhat\\contracts\\MyContract.sol": {
+      "lastModificationDate": 1686440351004,
+      "contentHash": "0ea1972e72c57736281499bfcbc255bc",
+      "sourceName": "contracts/MyContract.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "MyContract"
       ]
     }
   }
